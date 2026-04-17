@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* Remove old tailwind import that may cause issues */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Mobile menu button - hidden on desktop */
+@media (max-width: 640px) {
+  .mobile-menu-btn {
+    display: flex !important;
+  }
+}
